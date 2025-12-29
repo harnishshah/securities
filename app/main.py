@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
-#from app.api import stocks  # This is where your scoring logic lives
+from app.api import stocks  # This is where your scoring logic lives
 
 # 1. Lifespan: Logic that runs once when the API starts/stops
 @asynccontextmanager
